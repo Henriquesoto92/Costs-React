@@ -5,7 +5,7 @@ import styles from './newProject.module.css';
 
 function NewProject() {
 
-    const history = useNavigate();
+    const navigate = useNavigate();
 
     function createPost(project) {
         // initialize cpst and services
@@ -23,7 +23,7 @@ function NewProject() {
         .then((data) =>{
             console.log(data);
             //redirect
-            history('/Projects',{message: 'Projeto criado com sucesso!'})
+            navigate('/Projects',{state:{message: 'Projeto criado com sucesso!'}})
         })
         .catch(err => console.log(err));
     }
