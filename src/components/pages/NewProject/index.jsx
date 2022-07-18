@@ -1,7 +1,9 @@
+import styles from './style.module.css'
+
 import { useNavigate } from 'react-router-dom'
 
-import ProjectForm from "../project/ProjectForm"
-import styles from './newProject.module.css';
+import ProjectForm from "../../project/index"
+
 
 function NewProject() {
 

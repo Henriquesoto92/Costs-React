@@ -9,5 +9,6 @@ html,
 body,
 #root {
   background-color: #efefef;
+  width: 100%;
   height: 100%;
 }

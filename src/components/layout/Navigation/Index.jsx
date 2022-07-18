@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 
-import Container from './Container'
+import styles from './style.module.css'
 
-import styles from './navbar.module.css'
+import { Container } from '../index'
 
-import Logo from "../../img/costs_logo.png"
+import Logo from "../../../img/costs_logo.png"
 
-function Navbar() {
+function Navigation() {
     return (
         <nav className={styles.navbar}>
             <Container>
@@ -33,4 +33,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navigation

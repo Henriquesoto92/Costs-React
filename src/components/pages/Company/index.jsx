@@ -1,3 +1,5 @@
+// import styles from './style.module.css'
+
 function Company() {
     return (
         <div>
